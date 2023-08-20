@@ -4,7 +4,7 @@
   "description": "Full Stack Flipkart Ecommerce",
   "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "nodemon backend/server.js",
     "server": "nodemon backend/server.js",
     "frontend": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
@@ -25,6 +25,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.1.7",
     "nodemailer": "^6.7.2",
+    "nodemon": "^3.0.1",
     "paytmchecksum": "^1.5.0",
     "stripe": "^8.200.0",
     "uuid": "^8.3.2",

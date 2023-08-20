@@ -110,10 +110,10 @@ const NewProduct = () => {
             enqueueSnackbar("Add Brand Logo", { variant: "warning" });
             return;
         }
-        if (specs.length <= 1) {
-            enqueueSnackbar("Add Minimum 2 Specifications", { variant: "warning" });
-            return;
-        }
+        // if (specs.length <= 1) {
+        //     enqueueSnackbar("Add Minimum 2 Specifications", { variant: "warning" });
+        //     return;
+        // }
         if (images.length <= 0) {
             enqueueSnackbar("Add Product Images", { variant: "warning" });
             return;
